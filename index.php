@@ -167,7 +167,7 @@ function GetFileContents($filename) {
 		</script>
 		<div style="text-align:center">
 			Reward-Drop ETA date: <strong><?=date('d M Y H:i:s', strtotime($blockString, time()))?></strong><br/><br/>
-			<p>The Next Florincoin block mining reward halves on block number 2,400,000.<br/> Florincoin's block mining reward halves every 800,000 blocks, therefore the coin reward will decrease from 25 to 12.5 coins.  
+			<p>The Next Florincoin block mining reward halves on block number 3,200,000.<br/> Florincoin's block mining reward halves every 800,000 blocks, therefore the coin reward will decrease from 12.5 to 6.25 coins.  
 			<br/><br/>
 		</div>
 		<div align="right"><div class="fb-like" data-href="https://www.facebook.com/FlorinCoin/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div></div> <br/><br/>
@@ -186,14 +186,14 @@ function GetFileContents($filename) {
 			$(function() {
 			        
 			    $("#unix").ycp({
-			        apikey : 'xxx',
+			        apikey : '',
 			        playlist : 4,
 			        autoplay : false,
 			        related : true
 			    });
 						
 			    $(".demo").ycp({
-			        apikey : 'xxx'
+			        apikey : ''
 			    });
 			            
 			});
